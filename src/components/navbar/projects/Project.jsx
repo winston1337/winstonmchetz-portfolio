@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import './Project.css';
+import './Project.scss';
 
 const Project = ({ name, desc, src, hoversrc, }) => {
     const [hover, setHover] = useState(false);
