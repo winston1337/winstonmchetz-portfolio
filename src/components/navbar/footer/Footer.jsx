@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer>
       <section className="footer-text">
-        <h1>© 2022 Winston McHetz</h1>
+        <h1>© 2022 Winston McHetz, all rights reserved</h1>
       </section>
       <section className="footer-icons">
         <section className="icon-wrapper">

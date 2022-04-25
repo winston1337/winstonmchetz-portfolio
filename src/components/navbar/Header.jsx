@@ -1,6 +1,7 @@
 import React from 'react';
 import {MenuItems} from './MenuItems';
 import './Header.scss';
+// import LogoBox from './logo/LogoBox';
 
 class Navbar extends React.Component {
     state = {clicked : false}
@@ -9,11 +10,14 @@ class Navbar extends React.Component {
     }
     render() {
         return(
+            <>
+            
             <nav className="NavbarItems">
                 <h1 className="navbar-logo"><i className=''></i></h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}></i>
                 </div>
+                
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return (
@@ -27,6 +31,7 @@ class Navbar extends React.Component {
                     })}
                 </ul>
             </nav>
+            </>
         )
     }
 }

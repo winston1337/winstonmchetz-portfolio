@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import './Project.scss';
 
-const Project = ({ name, desc, src, hoversrc, }) => {
+const Project = ({ name, desc, src, hoversrc, link  }) => {
     const [hover, setHover] = useState(false);
     return (
         <div className="card" onMouseOver={()=> {
@@ -14,7 +14,11 @@ const Project = ({ name, desc, src, hoversrc, }) => {
                 <h2>{name}</h2>
                 <p><i>{desc}</i></p>
             </div>
-            <button className="card-btn">VIEW PROJECT</button>
+
+           <a href={link} target="_blank" rel="noreferrer"> <button onClick={link} className="card-btn">VIEW PROJECT</button>
+           </a>
+            
+            
         </div>
     )
 }

@@ -4,6 +4,8 @@ import Header from './components/navbar/Header';
 import ProjectCards from './components/navbar/projects/Projects';
 import Contact from './components/navbar/contact/Contact';
 import Footer from './components/navbar/footer/Footer';
+import Bio from './components/navbar/bio/Bio';
+
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" />
+        <Route path="/" element={<Bio />} />
         <Route path="/resume" />
         <Route path="/projects" element={<ProjectCards/>} />
         <Route path="/contact" element={<Contact/>} />

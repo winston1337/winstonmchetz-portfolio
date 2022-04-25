@@ -1,0 +1,25 @@
+.post {
+    transform: translateY();
+    padding: none;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.post-avatar {
+    margin-right: 10px;
+    border: 2px;
+    border: 2px solid rgb(250, 93, 20);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.post-header a h3 {
+    color: #fff;
+}
