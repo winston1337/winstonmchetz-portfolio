@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+Site deployed at https://master.d3rrq89jj0s67x.amplifyapp.com/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
