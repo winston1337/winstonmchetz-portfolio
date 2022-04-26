@@ -16,7 +16,7 @@ export const MenuItems = [
     },
     {
         title: 'Resume',
-        url: '/resume',
+        url: '/projectImages/Resume.pdf',
         cName: 'nav-links'
     },
 

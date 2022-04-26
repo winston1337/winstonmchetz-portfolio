@@ -27,7 +27,7 @@ const Bio = () => {
           <section className="about-me">
             <p>
               My skills include HTML, CSS, Javascript, React,
-              NodeJS, ExpressJS, MySQL, and building APIs.
+              NodeJS, ExpressJS, MySQL, and building and integrating APIs.
             </p>
           </section>
         </section>

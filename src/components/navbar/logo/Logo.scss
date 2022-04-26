@@ -1,6 +1,8 @@
 .post {
-    transform: translateY();
-    padding: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+    overflow: hidden;
 }
 
 .post-header {
@@ -12,14 +14,15 @@
     text-decoration: none;
 }
 .post-avatar {
-    margin-right: 10px;
+    margin-right: 25px;
     border: 2px;
     border: 2px solid rgb(250, 93, 20);
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     border-radius: 100%;
     object-fit: cover;
 }
 .post-header a h3 {
     color: #fff;
+    font-size: 40px;
 }

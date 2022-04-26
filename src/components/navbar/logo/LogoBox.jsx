@@ -5,7 +5,7 @@ const LogoBox =() => {
     return(
         <Logo 
         username="Winston McHetz"
-        avatar="/projectImages/roman-grachev-unsplash.jpg"
+        avatar="/projectImages/image1.jpeg"
         />
     )
 }
