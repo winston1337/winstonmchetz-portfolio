@@ -12,12 +12,12 @@ const Footer = () => {
       <section className="footer-icons">
         <section className="icon-wrapper">
           <a href="https://www.linkedin.com/in/winstonmchetz/" target="_blank" rel="noreferrer noopener">
-            <LinkedInIcon fontSize="large" />
+            <LinkedInIcon fontSize="large" color="primary" />
           </a>
         </section>
         <section className="icon-wrapper">
           <a href="https://github.com/winston1337" target="_blank" rel="noreferrer noopener">
-            <GitHubIcon fontSize="large" />
+            <GitHubIcon fontSize="large" color="primary" />
           </a>
         </section>
 
