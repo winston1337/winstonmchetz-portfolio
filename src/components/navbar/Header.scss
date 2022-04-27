@@ -38,11 +38,9 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 70vw;
     justify-content: end;
     margin-right: 2rem;
 }
-
 
 .fa-bars {
     color: #fff;
@@ -54,7 +52,7 @@
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 600px) {
     .NavbarItems {
         position: sticky; top: 0;
         z-index: 4;
@@ -101,4 +99,11 @@
         font-size: 1.8rem;
         cursor: pointer;
     }
+}
+@media screen and (max-width: 1024px) {
+    .NavbarItems ul li a {
+        font-size: 20px;
+        margin-left: -40px;
+    }
+
 }
