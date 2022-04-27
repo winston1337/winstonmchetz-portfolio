@@ -13,7 +13,7 @@ const Bio = () => {
           <br/>
           <section className="about-me">
             <p>
-              My name is Winston McHetz, and I'm a new and learning software engineer. I currently work as an Associate Software Engineer at Lowe's. I'm always learning new tools, and expanding my knowledge so I can improve my craft. In my freetime, I like to play video games, or watch movies or anime. I'm also a car enthusiast.
+              My name is Winston McHetz, and I currently work as an Associate Software Engineer at Lowe's. I'm always learning new tools, and expanding my knowledge so I can improve my craft. In my freetime, I like to play video games, or watch movies or anime. I'm also a car enthusiast.
             </p>
           </section>
         </section>
