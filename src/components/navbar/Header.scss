@@ -1,5 +1,5 @@
 .NavbarItems {
-    background: rgba(142, 52, 158, 0.7);
+    background: rgb(142, 52, 158);
     height: 90px;
     text-align: right;
     margin-bottom: 2%;
@@ -56,7 +56,8 @@
 
 @media screen and (max-width: 960px) {
     .NavbarItems {
-        position: relative;
+        position: sticky; top: 0;
+        z-index: 4;
     }
     .NavbarItems ul li {
         margin-bottom: 50px;
@@ -74,7 +75,7 @@
         width: 100%;
     }
     .nav-menu.active {
-        background: radial-gradient(circle, rgb(86, 89, 89) 0%, rgb(34, 34, 34) 100%);
+        background: rgb(34, 34, 34);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
