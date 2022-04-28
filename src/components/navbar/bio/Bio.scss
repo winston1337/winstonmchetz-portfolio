@@ -52,15 +52,15 @@
     .about-section {
         width: 600px;
     }
-    footer {
-        margin-top: 100%;
-    }
 }
 @media screen and (min-width: 768px) and (max-width: 1400px) {
     .about-section {
         width: 600px;
     }
-    footer {
-        margin-top: 100%;
-    }
 }
+
+@media (max-width: 320px) {
+    .about-section {
+        width: 250px;
+    }
+  }

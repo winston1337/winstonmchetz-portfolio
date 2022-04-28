@@ -4,7 +4,6 @@
   padding: 40px;
   background: white;
   border-radius: 15px;
-  margin-bottom: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -71,7 +70,7 @@ color: #666;
   
 }
 
-@media screen and (min-width: 350px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .contactForm {
     width: 350px;
   }
@@ -80,9 +79,15 @@ color: #666;
     margin-bottom: 15px;
   }
 }
-@media screen and (min-width: 900px) and (max-width: 1400px) {
+@media screen and (min-width: 760px) and (max-width: 1024px) {
   .contactForm {
-    width: 800px;
+    width: 700px;
     margin-top: 150px;
+  }
+
+}
+@media (max-width: 320px) {
+  .contactForm {
+    width: 250px;
   }
 }
