@@ -1,11 +1,13 @@
 .contactForm
 {
-  width: 570px;
+  width: 700px;
   padding: 40px;
   background: white;
   border-radius: 15px;
-  margin-bottom: 50px;
-  margin: auto;
+  margin-bottom: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 .contactForm h2
 {
@@ -69,12 +71,18 @@ color: #666;
   
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 350px) and (max-width: 600px) {
   .contactForm {
-    width: 340px;
+    width: 350px;
   }
   .headText {
     font-size: 15px;
     margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+  .contactForm {
+    width: 800px;
+    margin-top: 150px;
   }
 }
