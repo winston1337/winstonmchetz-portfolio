@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/navbar/Header';
-import ProjectCards from './components/navbar/projects/Projects';
-import Contact from './components/navbar/contact/Contact';
-import Footer from './components/navbar/footer/Footer';
-import Bio from './components/navbar/bio/Bio';
+import ProjectCards from './components/projects/Projects';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import Bio from './components/bio/Bio';
 
 
 function App() {
